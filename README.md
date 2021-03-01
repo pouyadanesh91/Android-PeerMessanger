@@ -11,20 +11,11 @@ This application as you may have figured out, has two parts:
 #### Note
 An elegant UI is desired, you can use whatever library you see fit, except anything that implements this challenge as a whole.
 
-![image](https://assets.materialup.com/uploads/bda283d2-1f2f-4946-be39-a0b4d12f14b0/attachment.png "You could use this UI as sample")
-<p align="center">
-You could use this UI as sample 
-</p>
 
 ### Advanced level
 For advanced part, you need to add two functionalities:
 1. stabilize & make chat reliable: meaning every message you send to peer, must be delivered no matter the situation (the app gets closed, the phone battery dies out, connection break & ...), for this you can use queue for storing messaging till they are successfully received & acknowledged by other side.
 2. chat list & history: use database to store messages, so that later, user can view previous chat sessions. A chat message list also needs to be implemented to be able to get back to previous chat sessions as desired.  
-
-![image](https://assets.materialup.com/uploads/70baf40e-90e3-4072-a32f-244af83af196/attachment.png "You could use this UI as sample")
-<p align="center">
-You could use this UI as sample 
-</p>
 
 #### Note 
 You only need to implement advanced level part, if specified by your mentor (for senior positions)
