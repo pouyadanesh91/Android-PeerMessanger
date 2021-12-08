@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/peerListFragment">
+
+    <fragment
+        android:id="@+id/peerListFragment"
+        android:name="com.danesh.nilvapeerchallenge.peer.PeerListFragment"
+        android:label="fragment_peer_list_item"
+        tools:layout="@layout/fragment_peer_list_item" />
+
+</navigation>
